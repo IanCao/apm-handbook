@@ -11,7 +11,7 @@
     <artifactId>apm-agent-http-register</artifactId>
 
     <properties>
-        <apache-httpclient.version>4.5.3</apache-httpclient.version>
+        <apache-httpclient.version>4.5.13</apache-httpclient.version>
         <shade.package>org.apache.skywalking.apm.agent.http.register.dependencies</shade.package>
         <shade.org.apache.http.source>org.apache.http</shade.org.apache.http.source>
         <shade.org.apache.http.target>${shade.package}.${shade.org.apache.http.source}</shade.org.apache.http.target>
