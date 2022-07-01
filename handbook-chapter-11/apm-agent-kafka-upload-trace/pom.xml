@@ -12,7 +12,7 @@
     <artifactId>apm-agent-kafka-upload-trace</artifactId>
 
     <properties>
-        <kafka-client.version>0.10.2.1</kafka-client.version>
+        <kafka-client.version>0.10.2.2</kafka-client.version>
         <shade.package>org.apache.skywalking.apm.agent.kafka.upload.trace.dependencies</shade.package>
         <shade.org.apache.kafka.source>org.apache.kafka</shade.org.apache.kafka.source>
         <shade.org.apache.kafka.target>${shade.package}.${shade.org.apache.kafka.source}</shade.org.apache.kafka.target>
